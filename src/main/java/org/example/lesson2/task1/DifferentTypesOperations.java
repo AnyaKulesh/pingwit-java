@@ -1,5 +1,6 @@
 package org.example.lesson2.task1;
 
+//+
 public class DifferentTypesOperations {
     public static void main(String[] args) {
         int firstInt = 133;

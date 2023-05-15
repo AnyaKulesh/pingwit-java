@@ -11,7 +11,7 @@ public class NumbersOperations {
         System.out.println(firstInt + " * " + secondInt + " = " + multiplication);
         System.out.println(firstInt + " % " + secondInt + " = " + remainder);
 
-
+//убери ненужные пустые строки, а так все хорошо - +
 
 
 

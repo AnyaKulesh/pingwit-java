@@ -6,6 +6,7 @@ Task 7
 - Посчитать сумму нечетных и вывести на экран
 - Найти общую сумму всех чисел
  */
+//+
 public class SumOddEvenNumbers {
     public static void main(String[] args) {
         int evenSum = 0;

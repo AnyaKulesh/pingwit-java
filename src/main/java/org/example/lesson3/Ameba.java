@@ -12,6 +12,6 @@ public class Ameba {
             amebaCount *= 2;
             System.out.println(amebaCount);
         }
-
+//лишняя строка
     }
 }

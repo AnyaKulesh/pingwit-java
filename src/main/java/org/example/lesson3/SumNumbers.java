@@ -3,6 +3,7 @@ package org.example.lesson3;
 Task 2
 Вычислить: 1+2+4+8+...+256
  */
+//+
 public class SumNumbers {
     public static void main(String[] args) {
         int sum = 0;

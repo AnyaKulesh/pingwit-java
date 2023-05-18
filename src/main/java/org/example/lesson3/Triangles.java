@@ -16,6 +16,7 @@ Task 8
    *
 
  */
+//+
 public class Triangles {
     public static void main(String[] args) {
         char c = '*';

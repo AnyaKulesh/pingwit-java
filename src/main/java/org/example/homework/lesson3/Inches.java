@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.homework.lesson3;
 /*
 Task 4
 Напишите программу печати таблицы перевода расстояний из дюймов в сантиметры

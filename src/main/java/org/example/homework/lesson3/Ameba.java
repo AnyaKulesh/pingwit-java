@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.homework.lesson3;
 /*
 Task 1
 Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
@@ -12,6 +12,5 @@ public class Ameba {
             amebaCount *= 2;
             System.out.println(amebaCount);
         }
-//лишняя строка
     }
 }

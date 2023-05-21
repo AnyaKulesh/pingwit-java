@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.homework.lesson3;
 /*
 Task 5
 Напишите программу вывода всех четных чисел от 2 до 100 включительно

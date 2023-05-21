@@ -1,4 +1,4 @@
-package org.example.lesson1;
+package org.example.homework.lesson1;
 
 public class NiceDay {
     public static void main(String[] args) {

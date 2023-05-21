@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.homework.lesson3;
 
 /*
 
@@ -20,23 +20,24 @@ Task 8
 public class Triangles {
     public static void main(String[] args) {
         char c = '*';
-        for (int i = 1; i <= 4; i++) {
+        int n = 4;
+        for (int i = 1; i <= n; i++) {
             String line = "";
             for (int a = 1; a <= i; a++) {
                 line += c;
             }
             System.out.println(line);
         }
-        for (int i = 4; i >= 1; i--) {
+        for (int i = n; i >= 1; i--) {
             String line = "";
             for (int a = 1; a <= i; a++) {
                 line += c;
             }
             System.out.println(line);
         }
-        for (int i = 1; i <= 4; i++) {
+        for (int i = 1; i <= n; i++) {
             String line = "";
-            for (int q = 1; q <= 4 - i; q++) {
+            for (int q = 1; q <= n - i; q++) {
                 line += ' ';
             }
             for (int a = 1; a <= 2 * i; a++) {
@@ -44,9 +45,9 @@ public class Triangles {
             }
             System.out.println(line);
         }
-        for (int i = 4; i >= 1; i--) {
+        for (int i = n; i >= 1; i--) {
             String line = "";
-            for (int q = 1; q <= 4 - i; q++) {
+            for (int q = 1; q <= n - i; q++) {
                 line += ' ';
             }
             for (int a = 1; a <= 2 * i; a++) {

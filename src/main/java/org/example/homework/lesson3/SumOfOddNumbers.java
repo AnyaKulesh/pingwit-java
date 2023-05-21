@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.homework.lesson3;
 /*
 Task 6
 Напишите программу, определяющую сумму всех нечетных чисел от 1 до 99

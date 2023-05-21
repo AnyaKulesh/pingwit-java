@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.homework.lesson3;
 /*
 Task 7
 Даны числа от 0 до 100.
@@ -12,10 +12,13 @@ public class SumOddEvenNumbers {
         int evenSum = 0;
         int oddSum = 0;
         for (int i = 1; i <= 100; i++) {
-            if (i % 2 == 0) {
-                evenSum += i;
-            } else {
-                oddSum += i;
+            switch (i % 2) {
+                case 0:
+                    evenSum += i;
+                    break;
+                case 1:
+                    oddSum += i;
+                    break;
             }
         }
         System.out.println(evenSum);
@@ -23,3 +26,4 @@ public class SumOddEvenNumbers {
         System.out.println(evenSum + oddSum);
     }
 }
+

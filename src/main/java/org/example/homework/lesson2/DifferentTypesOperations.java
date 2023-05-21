@@ -1,4 +1,4 @@
-package org.example.lesson2.task1;
+package org.example.homework.lesson2;
 
 //+
 public class DifferentTypesOperations {

@@ -8,6 +8,7 @@ Task 2
  */
 public class EvenNumbers {
     public static void main(String[] args) {
+        //i, b - не очень названия. Min, max
         int i = getNumber("Enter min number");;
         int b = getNumber("Enter max number");
         printEvenNumbers(i, b);
@@ -17,8 +18,8 @@ public class EvenNumbers {
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
         return scanner.nextInt();
-    }
-    static void  printEvenNumbers(int i, int b){
+    }//enter
+    static void  printEvenNumbers(int i, int b){//i, b - не очень. надо что-то говорящее
         if ( i % 2 != 0) {
             i++;
         }

@@ -19,6 +19,7 @@ public class SumOfOddNumbers {
         System.out.println(message);
         return scanner.nextInt();
     }
+    //форматируй код!
     static void printOddSum (int min,int max){
         int sum = calculateOddSum(min, max);
         System.out.println(sum);

@@ -21,7 +21,7 @@ public class SumOddEvenNumbers {
         System.out.println(message);
         return scanner.nextInt();
     }
-
+    //printOddEvenSum -> printTotalSum. Либо каждый метод для своей суммы. А так супер!
     static void printOddEvenSum(int min, int max) {
         int evenSum = 0;
         int oddSum = 0;

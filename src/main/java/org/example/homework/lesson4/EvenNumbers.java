@@ -14,11 +14,13 @@ public class EvenNumbers {
         printEvenNumbers(i, b);
 
     }
+
     static int getNumber(String message){
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
         return scanner.nextInt();
-    }//enter
+    }
+
     static void  printEvenNumbers(int i, int b){//i, b - не очень. надо что-то говорящее
         if ( i % 2 != 0) {
             i++;

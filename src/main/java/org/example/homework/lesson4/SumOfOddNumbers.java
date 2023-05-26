@@ -10,7 +10,7 @@ public class SumOfOddNumbers {
     public static void main(String[] args) {
         int min = getNumber("Enter min number");
         int max = getNumber(" Enter max number");
-        printOddSum(min,max);
+        printOddSum(min, max);
 
     }
 
@@ -19,8 +19,9 @@ public class SumOfOddNumbers {
         System.out.println(message);
         return scanner.nextInt();
     }
+
     //форматируй код!
-    static void printOddSum (int min,int max){
+    static void printOddSum(int min, int max) {
         int sum = calculateOddSum(min, max);
         System.out.println(sum);
     }

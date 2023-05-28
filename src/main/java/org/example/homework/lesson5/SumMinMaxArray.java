@@ -17,7 +17,7 @@ public class SumMinMaxArray {
         int length = scanner.nextInt();
         int[] array = initArray(length);
         int sum = countSum(array);
-        getMinMaxNumber(array);//если метод начинается с 'get', то он должен что-то возвращать. Просто переименуй
+        printMinMaxNumber(array);//если метод начинается с 'get', то он должен что-то возвращать. Просто переименуй
         System.out.println("sum = " + sum);
         System.out.println(Arrays.toString(array));
     }
@@ -40,7 +40,7 @@ public class SumMinMaxArray {
         return sum;
     }
 
-    static void getMinMaxNumber(int[] array) {
+    static void printMinMaxNumber(int[] array) {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
         for (int element : array) {

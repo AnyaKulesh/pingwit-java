@@ -11,15 +11,14 @@ public class AverageOfArray {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter array length ");
         int length = scanner.nextInt();
-        int[] array = initArray(length);
+        int[] array = initArray(length, scanner);
         int sum = getSumOfArrays(array);
         double averageArray = (double) sum / array.length;
         System.out.println("Average of array = " + averageArray);
         System.out.println(Arrays.toString(array));
     }
 
-    static int[] initArray(int length) {
-        Scanner scanner = new Scanner(System.in);//сканнер уже создан в 11. Можно просто передать
+    static int[] initArray(int length,Scanner scanner ) {
         int[] array = new int[length];
         System.out.println("Enter array elements");
         for (int i = 0; i < array.length; i++) {

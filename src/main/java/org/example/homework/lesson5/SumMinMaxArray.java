@@ -17,7 +17,7 @@ public class SumMinMaxArray {
         int length = scanner.nextInt();
         int[] array = initArray(length);
         int sum = countSum(array);
-        getMinMaxNumber(array);
+        getMinMaxNumber(array);//если метод начинается с 'get', то он должен что-то возвращать. Просто переименуй
         System.out.println("sum = " + sum);
         System.out.println(Arrays.toString(array));
     }

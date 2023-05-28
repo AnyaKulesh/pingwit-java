@@ -7,6 +7,7 @@ import java.util.Scanner;
 Task 3
 Есть массив чисел. Заменить каждый нечетный элемент массива на 0.
  */
+//+
 public class ReplacementOfOddElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

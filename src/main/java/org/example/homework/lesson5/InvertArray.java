@@ -21,6 +21,7 @@ public class InvertArray {
         array [i] = array [j];
         array [j] = a;
     }
+    //можно сделать, проитерировашись только до половины массива
     static void invertArray(int[]array){
         int i = 0;
         int j = array.length - 1;

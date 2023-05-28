@@ -19,7 +19,7 @@ public class AverageOfArray {
     }
 
     static int[] initArray(int length) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);//сканнер уже создан в 11. Можно просто передать
         int[] array = new int[length];
         System.out.println("Enter array elements");
         for (int i = 0; i < array.length; i++) {

@@ -14,6 +14,7 @@ public class EvenNum {
         System.out.println("Enter array length");
         int length = scanner.nextInt();
         int[] array = new int[length];
+        //отдельный метод
         System.out.println("Enter element array");
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();

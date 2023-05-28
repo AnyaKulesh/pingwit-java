@@ -9,7 +9,7 @@ Task 4
  */
 public class MultiplicationTable {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 10;//чсисло пользователя
         int m = 10;
         int[][] a = new int[n][m];
 

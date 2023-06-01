@@ -13,6 +13,7 @@ Task 4
 поля 'text' и затем выведите на экран поле 'text' у всех созданных объектов.
 Если результат вас удивил, пересмотрите лекцию про static поля в классах
  */
+//+
 public class Pet {
     private static String text = "Hello from static";
 

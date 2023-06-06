@@ -12,6 +12,7 @@ import java.util.Map;
 - общий вес урожая для каждого растения
  */
 public class HarvestStatisticService {
+
     public static HarvestStatistics[] calculateStatistics(Harvest[] harvest) {
         Map<String, BigDecimal> statistics = new HashMap<>();
         for (Harvest harvestItem : harvest) {

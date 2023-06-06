@@ -16,11 +16,11 @@ public class Harvest {
     private String field;
     private String plant;
     private BigDecimal weight;
-    public Harvest(long id, String field, String plant, Double weight) {
+    public Harvest(long id, String field, String plant, BigDecimal weight) {
         this.id = id;
         this.field = field;
         this.plant = plant;
-        this.weight = BigDecimal.valueOf(weight);
+        this.weight = weight;
     }
     public String getPlant() {
         return plant;

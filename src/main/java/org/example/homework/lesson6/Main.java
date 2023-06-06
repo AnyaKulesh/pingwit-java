@@ -11,6 +11,9 @@ public class Main {
         otherPets[2] = cat;
 
         cat.updateText("Hello from Vasya");
+        cat.age = 5;
+        cat.setName("John");
+        System.out.println("name: " + cat.getName() + ", age: " + cat.age);
 
         System.out.println(Arrays.toString(otherPets));
     }

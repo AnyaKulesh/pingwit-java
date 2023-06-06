@@ -21,7 +21,7 @@ public class Pet {
         System.out.println("Created a new pet instance");
     }
 
-    String name;
+    private String name;
     int age;
 
     public Pet(String name, int age) {
@@ -41,7 +41,15 @@ public class Pet {
                 '}';
     }
 
-    void updateText(String text) {
-        Pet.text = text;
+    void updateText(String newText) {
+        Pet.text = newText;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

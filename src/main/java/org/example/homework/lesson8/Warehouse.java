@@ -12,6 +12,7 @@ Task 1
 также должен быть метод getArray() - который возвращает массив и переопределен метод toString()
 
  */
+//+
 public class Warehouse {
     private Box[] boxes;
     private int index;

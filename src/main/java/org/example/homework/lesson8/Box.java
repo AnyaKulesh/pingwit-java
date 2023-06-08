@@ -9,5 +9,6 @@ Task 1
 также должен быть метод getArray() - который возвращает массив и переопределен метод toString()
 
  */
+//+
 public record Box(String name, double weight) {
 }

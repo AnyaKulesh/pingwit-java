@@ -34,7 +34,8 @@ public class Warehouse {
     }
 
     public Box next() {
-        Box result = boxes[index++];
+        Box result = boxes[index];
+        index++;
         if (index == boxes.length) {
             index = 0;
         }

@@ -12,7 +12,7 @@ public class Polyndrom {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" Enter string");
-        String string = scanner.next();
+        String string = scanner.nextLine();
         boolean polyndrom = isPolyndrom(string);
         System.out.println(polyndrom);
     }
@@ -23,6 +23,7 @@ public class Polyndrom {
                 .toCharArray();
         int left = 0;
         int right = chars.length - 1;
+        //шалаш
         while (left < right) {
             if (chars[left] != chars[right]) {
                 return false;

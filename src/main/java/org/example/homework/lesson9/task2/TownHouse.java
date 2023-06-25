@@ -1,6 +1,7 @@
 package org.example.homework.lesson9.task2;
 
-public class TownHouse extends House {
+public class
+TownHouse extends House {
     private Heating heating;
 
     public TownHouse(int floorNumber, int tenants, Heating heating) {

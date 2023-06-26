@@ -7,6 +7,7 @@ Task 6
 Есть массив слов. Нужно отфильтровать его так, чтобы в выходном массиве оказались слова, которые начинаются с буквы “W”/”w”.
 
  */
+//ок
 public class WordArray {
     private static final String[] WORDS = {"wallet", "pocket", " Wall", " walk", " sea", " Wedding", "Apple", " Puppe", "wrong"};
     private static final String FIRST_LETTER = "w";
@@ -34,6 +35,8 @@ public class WordArray {
         return filtered;
     }
 
+    //название метода не очень. Немного не соответствует возвращаемому типу. 'Filter' больше подходит для void
+    //или когда возвращаешь то, что фильтруешь.
     public static boolean filter(String word, String prefix) {
         return word.trim().toLowerCase().startsWith(prefix.toLowerCase());
     }

@@ -3,6 +3,7 @@ package org.example.homework.lesson12.task7;
 /*
 Есть массив строк, вывести на экран все строки, длина которых больше 5 символов
  */
+//супер!
 public class DisplayBigStrings {
     private static final String[] WORDS = {"monkey", "crocodile", "rat", "dog", "rabbit"};
     private static final int LENGTH_LIMIT = 5;

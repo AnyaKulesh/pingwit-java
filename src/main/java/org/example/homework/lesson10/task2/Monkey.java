@@ -2,6 +2,7 @@ package org.example.homework.lesson10.task2;
 
 public class Monkey {
     private final String name;
+    //странное поле. Здесь просто массив фруктов. Суть будет та же
     private final boolean[] knowledge;
 
     public Monkey(String name) {

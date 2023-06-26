@@ -13,6 +13,7 @@ Plan is to make the game as good as possible but without compromising the core i
 Нужно узнать содержит ли текст слова “alert”, “add”, “good”, “plan” и какое кол-во.
 
  */
+//+++
 public class FindWords {
 
     private static final String TEXT = "While major gameplay components are already in place and functioning, players help is needed to add some of the smaller features and content. Of course polishing the overall experience is important at the same time. Game has been extensively tested in closed group, but it is always important to hear fresh suggestions from larger crowd that come from various gaming backgrounds. Plan is to make the game as good as possible but without compromising the core idea.";

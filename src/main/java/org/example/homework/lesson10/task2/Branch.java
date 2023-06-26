@@ -5,7 +5,7 @@ import java.util.Random;
 public class Branch {
     private static final int MAX_FRUIT_NUMBER = 7;
     private final int fruitNumber;
-    private Branch[] children;
+    private Branch[] children;//необязательно было делать с чилдренами
 
     public Branch(Branch[] children) {
         this.children = children;

@@ -1,5 +1,5 @@
 package org.example.homework.lesson10.task1;
-
+//ок
 public class Main {
     public static void main(String[] args) {
         Vegetable[] vegetables = {

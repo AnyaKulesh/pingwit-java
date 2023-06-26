@@ -2,7 +2,7 @@ package org.example.homework.lesson12.task6;
 
 
 public class Car {
-    private final String model;
+    private final String model;//можно как enum
     private final AutoEngine engine;
 
     public Car(AutoEngine engine, String model) {

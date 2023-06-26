@@ -9,7 +9,7 @@ public class ReplaceMarks {
         String replaced = replace(str, ".", ",");
         System.out.println(replaced);
     }
-
+    //создавать метод replace для метода replace необязательно
     static String replace(String str, String target, String substring) {
         return str.replace(target, substring);
     }

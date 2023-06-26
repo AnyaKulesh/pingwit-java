@@ -6,7 +6,7 @@ Task 1
 У каждого овоща есть граммовка и калорийность. Надо сделать салат и посчитать итоговое количество калорий и грамм.
  */
 public abstract class Vegetable {
-    private final double caloriesPer100Gram;
+    private final double caloriesPer100Gram;//название не очень. Просто kkal
     private final int weight;
     private final Vegetables name;
 
@@ -17,7 +17,7 @@ public abstract class Vegetable {
     }
 
     public double getCalories() {
-        return caloriesPer100Gram * weight / 100;
+        return caloriesPer100Gram * weight / 100;// 100 - константа!
     }
 
     public int getWeight() {

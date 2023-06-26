@@ -5,6 +5,7 @@ Task 1
 Игра в слова. Есть строка “engineering”. Нужно выделить подстроку так, чтобы получилось два слова “engine” и “ring”.
 
  */
+//+
 public class Engineering {
     public static void main(String[] args) {
         String str = "Engineering";

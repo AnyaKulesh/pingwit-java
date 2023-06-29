@@ -17,6 +17,7 @@ Task 2
 и т.д. Города выберите сами.
 
  */
+//+
 public class WorldTime {
     public static final String TIME_PATTERN = "HH:mm";
     public static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern(TIME_PATTERN);

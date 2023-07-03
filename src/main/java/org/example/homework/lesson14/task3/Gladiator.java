@@ -34,6 +34,7 @@ Math.random() - поможет со случайным значением
 
 Не пишите весь код в методе main(). Попробуйте выносить функционал в разные классы
  */
+//зачем гладиатору быть абстрактным? 
 public abstract class Gladiator {
     private static final int HEALTH = 4;
     private final String name;

@@ -3,7 +3,7 @@ package org.example.homework.lesson14.task3;
 import java.util.Arrays;
 
 public class Battle {
-    int first = 0;
+    int first = 0;//нейминг ни о чем не говорит
     private final Gladiator[] gladiators;
 
     public Battle(Gladiator gladiator1, Gladiator gladiator2) {

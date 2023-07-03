@@ -1,7 +1,7 @@
 package org.example.homework.lesson14.task3;
 
 import java.util.Random;
-
+//ну ок, креативно :)
 public class AIGladiator extends Gladiator {
 
     public static final String[] NAMES = {"John", "Vasilisa", "Lev", "Anya", "Sasha"};

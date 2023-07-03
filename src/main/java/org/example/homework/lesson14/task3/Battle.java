@@ -44,6 +44,7 @@ public class Battle {
     }
 
     private Gladiator getDefender() {
+        //а для чего эти подсчеты?
         return gladiators[(first + 1) % 2];
     }
 

@@ -4,5 +4,5 @@ public enum BodyArea {
     HEAD,
     BODY,
     LEGS,
-    NONE
+    NONE//это лишнее, не вяжется с енамом. Отсутсвие значение и есть NONE
 }

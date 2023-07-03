@@ -1,7 +1,7 @@
 package org.example.homework.lesson14.task3;
 
 import java.util.Scanner;
-
+//+, мне нравится
 public class UserGladiator extends Gladiator {
     public UserGladiator(String name) {
         super(name);

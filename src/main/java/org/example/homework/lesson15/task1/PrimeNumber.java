@@ -18,6 +18,7 @@ public class PrimeNumber {
         System.out.println(isPrime);
     }
 
+    //isPrimeNumber
     public static boolean isNumberPrime(int num) throws PrimeNumberException {
         if (num <= 0) {
             throw new PrimeNumberException("The number is less than 0");

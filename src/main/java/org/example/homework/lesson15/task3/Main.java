@@ -1,5 +1,6 @@
 package org.example.homework.lesson15.task3;
 
+//+
 public class Main {
     public static void main(String[] args) throws InsufficientFundsException {
         BankAccount bankAccount = new BankAccount("Vasiliy", Currency.EUR, 3400);

@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+//+
 public class SecretMessageReader {
     private static final String FILE_PATH = "src/main/java/org/example/homework/lesson16/task4/image.jpeg";
 

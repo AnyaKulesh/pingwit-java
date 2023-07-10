@@ -8,6 +8,7 @@ Task 2
 но перехватывает и обрабатывает исключение ArithmeticException,
 которое будет выдано, если знаменатель равен нулю.
  */
+//форматируй код
 public class Division {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -9,6 +9,7 @@ import java.io.IOException;
 /*
 Прочитать файл из Task_2 и вывести на экран содержимое
  */
+//+
 public class MyFileReader {
     public static void main(String[] args) {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(FileOutput.getFilePath()))) {

@@ -7,9 +7,9 @@ Task 5
 Программа должна уметь выводить сумму на счете.
  */
 public class BankAccount {
-    private String holder;
+    private String holder;//это можно было в отдельный класс тоже вынести - User, например
     private Currency currency;
-    private double amount;
+    private double amount;//BigDecimal для money
 
     public BankAccount(String holder, Currency currency, double amount) {
         this.holder = holder;

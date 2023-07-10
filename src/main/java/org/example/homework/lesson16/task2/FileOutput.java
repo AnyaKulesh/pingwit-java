@@ -27,6 +27,7 @@ public class FileOutput {
 
     }
 
+    //метод, возвращающий константу, точно не нужен
     public static String getFilePath() {
         return FILE_PATH;
     }
